@@ -27,6 +27,11 @@ const externalStyle = StyleSheet.create({
       dateCompleted: {
         justifyContent: "center",
       },
+      headerImage:{
+        resizeMode: "contain",
+        width: "90%",
+        alignSelf: "center",
+      },  
       boxPurple:{
         backgroundColor:'#D70096',
         height:70,

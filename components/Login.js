@@ -1,5 +1,5 @@
 import React, { useState, useContext, useEffect } from "react";
-import {StyleSheet, Text, View, Alert, TextInput, TouchableOpacity,} from "react-native";
+import {StyleSheet, Text, View, Alert, Image, TextInput, TouchableOpacity,} from "react-native";
 import { AuthContext } from "./context";
 import { ScrollView } from "react-native-gesture-handler";
 import externalStyle from "../style/externalStyle";
@@ -95,7 +95,7 @@ const Login = (props) => {
     <ScrollView>
     <View style={externalStyle.container}>
       <View>
-        <Text style={externalStyle.headertext}>Summa Veiligheid</Text>
+        <Image style={externalStyle.headerImage} source={require('../style/summaveiligheid.png')}></Image>
         <View style={externalStyle.cleanline}></View>
       </View>
         <View style={externalStyle.buttonContent}>
